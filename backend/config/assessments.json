@@ -1,0 +1,37 @@
+{
+  "as_hr_02": {
+    "sections": ["Vitals", "Body Composition", "Fitness Test"],
+    "fields": {
+      "Vitals": {
+        "Heart Rate": "vitalsMap.vitals.heart_rate",
+        "Systolic BP": "vitalsMap.vitals.bp_sys",
+        "Diastolic BP": "vitalsMap.vitals.bp_dia",
+        "Respiratory rate": "vitalsMap.vitals.resp_rate"
+      },
+      "Body Composition": {
+        "BMI": "bodyCompositionData.BMI",
+        "WHR": "bodyCompositionData.WHR",
+        "BMR": "bodyCompositionData.BMR",
+        "FM": "bodyCompositionData.FM"
+      },
+      "Fitness Test": {
+        "Jog Time": "exercises.235.setList.0.time"
+      }
+    }
+  },
+  "as_card_01": {
+    "sections": ["Vitals", "Body Composition"],
+    "fields": {
+      "Vitals": {
+        "Heart Rate": "vitalsMap.vitals.heart_rate",
+        "Systolic BP": "vitalsMap.vitals.bp_sys",
+        "Diastolic BP": "vitalsMap.vitals.bp_dia"
+      },
+      "Body Composition": {
+        "BMI": "bodyCompositionData.BMI",
+        "WHR": "bodyCompositionData.WHR",
+        "BMR": "bodyCompositionData.BMR"
+      }
+    }
+  }
+}
